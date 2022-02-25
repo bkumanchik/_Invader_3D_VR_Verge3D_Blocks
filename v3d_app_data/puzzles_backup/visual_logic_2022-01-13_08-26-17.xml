@@ -212,7 +212,6 @@
                                                                           <field name="VAR" id="SqsQac+:}8N?U7+`/09~">inv_x</field>
                                                                           <value name="VALUE">
                                                                             <block type="getObjTransform" id="sfc?Es/$G5l~[y2Zs8lq">
-                                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                                                               <field name="MODE">position</field>
                                                                               <field name="COORD">x</field>
                                                                               <value name="TARGETOBJ">
@@ -227,7 +226,6 @@
                                                                               <field name="VAR" id="pRc-~rmlPY_[N:aT^$}~">inv_y</field>
                                                                               <value name="VALUE">
                                                                                 <block type="getObjTransform" id="CW8XqG5B8*4%}$D8@1D,">
-                                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                                                                   <field name="MODE">position</field>
                                                                                   <field name="COORD">y</field>
                                                                                   <value name="TARGETOBJ">
@@ -242,7 +240,6 @@
                                                                                   <field name="VAR" id="NJ]$49HP2428TS$c$D=P">inv_z</field>
                                                                                   <value name="VALUE">
                                                                                     <block type="getObjTransform" id="Upc9O-h7+)rQFV_~z@m(">
-                                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                                                                       <field name="MODE">position</field>
                                                                                       <field name="COORD">z</field>
                                                                                       <value name="TARGETOBJ">
@@ -305,7 +302,6 @@
                                                                                                   </value>
                                                                                                   <next>
                                                                                                     <block type="setObjTransform" id="bU?:TBzjP.LDcwp%rdi|">
-                                                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
                                                                                                       <field name="MODE">position</field>
                                                                                                       <field name="OFFSET">FALSE</field>
                                                                                                       <value name="TARGETOBJ">
@@ -330,7 +326,6 @@
                                                                                                       </value>
                                                                                                       <next>
                                                                                                         <block type="setObjTransform" id="dl[$RQxCmtsK?awg)Zw3">
-                                                                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
                                                                                                           <field name="MODE">position</field>
                                                                                                           <field name="OFFSET">FALSE</field>
                                                                                                           <value name="TARGETOBJ">
@@ -493,7 +488,6 @@
                               </value>
                               <statement name="DO0">
                                 <block type="applyObjLocalTransform" id="UT0~.9rPQ^2-jcPysXsr">
-                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false"></mutation>
                                   <field name="MODE">position</field>
                                   <value name="TARGETOBJ">
                                     <shadow type="objectList" id="9pv[]P}*_icQ~Q5wkYuV">
@@ -548,7 +542,6 @@
                                                   </value>
                                                   <statement name="DO0">
                                                     <block type="applyObjLocalTransform" id="QZ;.@sV[{%b3+5sv^_uS">
-                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false"></mutation>
                                                       <field name="MODE">position</field>
                                                       <value name="TARGETOBJ">
                                                         <shadow type="objectList" id="3cc}#eYf%4nY0BH8^yY}">
@@ -569,7 +562,6 @@
                                                           <field name="OP">GT</field>
                                                           <value name="A">
                                                             <block type="getObjTransform" id="zcfV:RMVm_0^7/srpsI=">
-                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                                               <field name="MODE">position</field>
                                                               <field name="COORD">x</field>
                                                               <value name="TARGETOBJ">
@@ -613,7 +605,6 @@
                                                               </value>
                                                               <next>
                                                                 <block type="applyObjLocalTransform" id="bG},J1EzaklVP4lE+-#S">
-                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false"></mutation>
                                                                   <field name="MODE">position</field>
                                                                   <value name="TARGETOBJ">
                                                                     <shadow type="objectList" id="/1x.F,4,KDwkZQ+[1EVG">
@@ -638,7 +629,6 @@
                                                               <field name="OP">LT</field>
                                                               <value name="A">
                                                                 <block type="getObjTransform" id="q2jRaq~4)]W]k]/N:(oX">
-                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                                                   <field name="MODE">position</field>
                                                                   <field name="COORD">x</field>
                                                                   <value name="TARGETOBJ">
@@ -682,7 +672,6 @@
                                                                   </value>
                                                                   <next>
                                                                     <block type="applyObjLocalTransform" id="TH:k%7sB.Uv=5zUfumFA">
-                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false"></mutation>
                                                                       <field name="MODE">position</field>
                                                                       <value name="TARGETOBJ">
                                                                         <shadow type="objectList" id="/E/@LL)GZQDQa:.[|k3K">
@@ -789,7 +778,6 @@
                   <field name="VAR" id="B(}sHQjhR}7!UWy7+%!=">turret_check_x</field>
                   <value name="VALUE">
                     <block type="getObjTransform" id="hi^oB9h_ldpsPz;Xi@k=">
-                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                       <field name="MODE">position</field>
                       <field name="COORD">x</field>
                       <value name="TARGETOBJ">
@@ -818,7 +806,6 @@
                       </value>
                       <statement name="DO0">
                         <block type="applyObjLocalTransform" id="pxS8hwV)`mX,}w}40L2i">
-                          <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false"></mutation>
                           <field name="MODE">position</field>
                           <value name="TARGETOBJ">
                             <shadow type="objectList" id=":4NP?gOuy(-tG2q^oXRU">
@@ -898,7 +885,6 @@
                       <field name="VAR" id="B(}sHQjhR}7!UWy7+%!=">turret_check_x</field>
                       <value name="VALUE">
                         <block type="getObjTransform" id="63-n69[2Wby!pdB_nCK_">
-                          <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                           <field name="MODE">position</field>
                           <field name="COORD">x</field>
                           <value name="TARGETOBJ">
@@ -927,7 +913,6 @@
                           </value>
                           <statement name="DO0">
                             <block type="applyObjLocalTransform" id="f4zNfZJLkMin^2zT%?R:">
-                              <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false"></mutation>
                               <field name="MODE">position</field>
                               <value name="TARGETOBJ">
                                 <shadow type="objectList" id="Ht*0k!fwFElw%ruUEI[s">
@@ -1038,7 +1023,6 @@
                                       <field name="VAR" id="}L!KgAAO3%;:k./c(7@T">shot_x</field>
                                       <value name="VALUE">
                                         <block type="getObjTransform" id=":-HHr_:f;@Sa!MJn0WvX">
-                                          <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                           <field name="MODE">position</field>
                                           <field name="COORD">x</field>
                                           <value name="TARGETOBJ">
@@ -1053,7 +1037,6 @@
                                           <field name="VAR" id="[v*n[EN~]Q3HBUdbgGa`">shot_y</field>
                                           <value name="VALUE">
                                             <block type="getObjTransform" id="I{TH`=|X/aLem-!TW1?E">
-                                              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                               <field name="MODE">position</field>
                                               <field name="COORD">y</field>
                                               <value name="TARGETOBJ">
@@ -1068,7 +1051,6 @@
                                               <field name="VAR" id="jeOa+}}T;n24tm{Nz5@%">shot_z</field>
                                               <value name="VALUE">
                                                 <block type="getObjTransform" id="IA#deFO;mu(kA1BRK47n">
-                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                                   <field name="MODE">position</field>
                                                   <field name="COORD">z</field>
                                                   <value name="TARGETOBJ">
@@ -1080,7 +1062,6 @@
                                               </value>
                                               <next>
                                                 <block type="setObjTransform" id=").ice2]}@8}gT{$%P7ji">
-                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
                                                   <field name="MODE">position</field>
                                                   <field name="OFFSET">FALSE</field>
                                                   <value name="TARGETOBJ">
@@ -1149,7 +1130,6 @@
                           </value>
                           <next>
                             <block type="applyObjLocalTransform" id="VL$C6IN}?d:]%8!,2n!C">
-                              <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false"></mutation>
                               <field name="MODE">position</field>
                               <value name="TARGETOBJ">
                                 <shadow type="objectList" id="CHkfFZ#8-C0NJ8jvGcnJ">
@@ -1166,7 +1146,6 @@
                                   <field name="VAR" id="jeOa+}}T;n24tm{Nz5@%">shot_z</field>
                                   <value name="VALUE">
                                     <block type="getObjTransform" id="L[T$|1Ya=FJ%Vgl|7E]v">
-                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                       <field name="MODE">position</field>
                                       <field name="COORD">z</field>
                                       <value name="TARGETOBJ">
@@ -1205,7 +1184,6 @@
                                               <field name="VAR" id="}L!KgAAO3%;:k./c(7@T">shot_x</field>
                                               <value name="VALUE">
                                                 <block type="getObjTransform" id="b1pCgu1?(1+arP75bDa}">
-                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                                   <field name="MODE">position</field>
                                                   <field name="COORD">x</field>
                                                   <value name="TARGETOBJ">
@@ -1220,7 +1198,6 @@
                                                   <field name="VAR" id="[v*n[EN~]Q3HBUdbgGa`">shot_y</field>
                                                   <value name="VALUE">
                                                     <block type="getObjTransform" id="cP9o.,0d!9|8,O`a@[9e">
-                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                                       <field name="MODE">position</field>
                                                       <field name="COORD">y</field>
                                                       <value name="TARGETOBJ">
@@ -1235,7 +1212,6 @@
                                                       <field name="VAR" id="jeOa+}}T;n24tm{Nz5@%">shot_z</field>
                                                       <value name="VALUE">
                                                         <block type="getObjTransform" id="j{Jtl_L6~3.OW7%n#i|6">
-                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                                           <field name="MODE">position</field>
                                                           <field name="COORD">z</field>
                                                           <value name="TARGETOBJ">
@@ -1247,7 +1223,6 @@
                                                       </value>
                                                       <next>
                                                         <block type="setObjTransform" id="HWR]2$Z}CSS.(lcHM2my">
-                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
                                                           <field name="MODE">position</field>
                                                           <field name="OFFSET">FALSE</field>
                                                           <value name="TARGETOBJ">
@@ -1399,7 +1374,6 @@
                               <field name="VAR" id="5H48d(PbhiapOVr7A9R)">inv_shot_x</field>
                               <value name="VALUE">
                                 <block type="getObjTransform" id="fF8D|K}mtV$Dd[KDgsr(">
-                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                   <field name="MODE">position</field>
                                   <field name="COORD">x</field>
                                   <value name="TARGETOBJ">
@@ -1414,7 +1388,6 @@
                                   <field name="VAR" id="NxSk8!JSU%5Y8qS;|Y{p">inv_shot_z</field>
                                   <value name="VALUE">
                                     <block type="getObjTransform" id="{*2jgjltGsVB*`xk?WX)">
-                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                       <field name="MODE">position</field>
                                       <field name="COORD">z</field>
                                       <value name="TARGETOBJ">
@@ -1426,7 +1399,6 @@
                                   </value>
                                   <next>
                                     <block type="setObjTransform" id="US^r52Z^f$fgqiZ8FKjC">
-                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
                                       <field name="MODE">position</field>
                                       <field name="OFFSET">FALSE</field>
                                       <value name="TARGETOBJ">
@@ -1494,7 +1466,6 @@
           </value>
           <statement name="DO0">
             <block type="applyObjLocalTransform" id="GX5B2X~?F7eLg7!O4WIV">
-              <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false"></mutation>
               <field name="MODE">position</field>
               <value name="TARGETOBJ">
                 <shadow type="objectList" id="aS/%0xM*XI;!i,h{F`?.">
@@ -1511,7 +1482,6 @@
                   <field name="VAR" id="NxSk8!JSU%5Y8qS;|Y{p">inv_shot_z</field>
                   <value name="VALUE">
                     <block type="getObjTransform" id="lU1XVIpSq*/M`5-H2+[J">
-                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                       <field name="MODE">position</field>
                       <field name="COORD">z</field>
                       <value name="TARGETOBJ">
@@ -1550,7 +1520,6 @@
                               <field name="VAR" id="5H48d(PbhiapOVr7A9R)">inv_shot_x</field>
                               <value name="VALUE">
                                 <block type="getObjTransform" id="i{t=PVRv4H8bM8K-5I!%">
-                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                   <field name="MODE">position</field>
                                   <field name="COORD">x</field>
                                   <value name="TARGETOBJ">
@@ -1565,7 +1534,6 @@
                                   <field name="VAR" id="NxSk8!JSU%5Y8qS;|Y{p">inv_shot_z</field>
                                   <value name="VALUE">
                                     <block type="getObjTransform" id="F5$ac#0rRx%LUj/sJ`eV">
-                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                       <field name="MODE">position</field>
                                       <field name="COORD">z</field>
                                       <value name="TARGETOBJ">
@@ -1577,7 +1545,6 @@
                                   </value>
                                   <next>
                                     <block type="setObjTransform" id="x[tTv_gO7-sMpScun6m4">
-                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
                                       <field name="MODE">position</field>
                                       <field name="OFFSET">FALSE</field>
                                       <value name="TARGETOBJ">
@@ -1735,7 +1702,6 @@
                                       </value>
                                       <next>
                                         <block type="setObjTransform" id="cwcRu|^W5XHkSzu}s3Ho">
-                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
                                           <field name="MODE">position</field>
                                           <field name="OFFSET">FALSE</field>
                                           <value name="TARGETOBJ">
@@ -1885,7 +1851,6 @@
                       </value>
                       <statement name="DO">
                         <block type="setObjTransform" id="Uo)Urqi5SAt^G{b_~-[0">
-                          <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
                           <field name="MODE">position</field>
                           <field name="OFFSET">FALSE</field>
                           <value name="TARGETOBJ">
@@ -2056,7 +2021,6 @@
                                   </value>
                                   <next>
                                     <block type="setObjTransform" id="JW!:m:cC@|GX#tgX0XwX">
-                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
                                       <field name="MODE">position</field>
                                       <field name="OFFSET">FALSE</field>
                                       <value name="TARGETOBJ">
