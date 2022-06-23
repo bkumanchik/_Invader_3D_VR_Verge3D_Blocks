@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="1118.075344963635" scrolly="1095.997618502829" scale="0.6548623765145809">
+  <tab name="main" type="MainTab" active="true" scrollx="452.1424608598338" scrolly="671.6092611580943" scale="0.364651875">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="0S8xSmIPXR,?MpVR;PD^" type="">game_over</variable>
       <variable id="Ot_qa}_UM:k1kQ*AwNDx" type="">turret_fired</variable>
@@ -208,185 +208,167 @@
                                                                     <block type="procedures_callnoreturn" id="W!~K!,soe2O=q!?0gfB*">
                                                                       <mutation name="invader_fire"/>
                                                                       <next>
-                                                                        <block type="hide" id="h@{4R?8%375?+U]HX3uA">
+                                                                        <block type="variables_set" id="oy2TI(JX=ZBVQdqzOQi}">
+                                                                          <field name="VAR" id="SqsQac+:}8N?U7+`/09~">inv_x</field>
                                                                           <value name="VALUE">
-                                                                            <shadow type="objectList" id="=crXh(dEEikFz`x6)mK*">
-                                                                              <field name="FIELDNAME">inv_shot</field>
-                                                                            </shadow>
-                                                                          </value>
-                                                                          <next>
-                                                                            <block type="hide" id="[,c)^?52~//ia11=+mG=">
-                                                                              <value name="VALUE">
-                                                                                <shadow type="objectList" id="$Y:YB(Dc(:kZ#C8EQ;.:">
-                                                                                  <field name="FIELDNAME">shot</field>
+                                                                            <block type="getObjTransform" id="sfc?Es/$G5l~[y2Zs8lq">
+                                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                                                              <field name="MODE">position</field>
+                                                                              <field name="COORD">x</field>
+                                                                              <value name="TARGETOBJ">
+                                                                                <shadow type="objectList" id="vMjzJmbZJ^3{bA_*14wH">
+                                                                                  <field name="FIELDNAME">invader_root</field>
                                                                                 </shadow>
                                                                               </value>
+                                                                            </block>
+                                                                          </value>
+                                                                          <next>
+                                                                            <block type="variables_set" id="`#K)pl(0~%(U4dJvzMT/">
+                                                                              <field name="VAR" id="pRc-~rmlPY_[N:aT^$}~">inv_y</field>
+                                                                              <value name="VALUE">
+                                                                                <block type="getObjTransform" id="CW8XqG5B8*4%}$D8@1D,">
+                                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                                                                  <field name="MODE">position</field>
+                                                                                  <field name="COORD">y</field>
+                                                                                  <value name="TARGETOBJ">
+                                                                                    <shadow type="objectList" id="q]/wG|bPAhBe|+ghNymA">
+                                                                                      <field name="FIELDNAME">invader_root</field>
+                                                                                    </shadow>
+                                                                                  </value>
+                                                                                </block>
+                                                                              </value>
                                                                               <next>
-                                                                                <block type="variables_set" id="oy2TI(JX=ZBVQdqzOQi}">
-                                                                                  <field name="VAR" id="SqsQac+:}8N?U7+`/09~">inv_x</field>
+                                                                                <block type="variables_set" id="C%fc^-_`O8j}%~=6}Y@`">
+                                                                                  <field name="VAR" id="NJ]$49HP2428TS$c$D=P">inv_z</field>
                                                                                   <value name="VALUE">
-                                                                                    <block type="getObjTransform" id="sfc?Es/$G5l~[y2Zs8lq">
+                                                                                    <block type="getObjTransform" id="Upc9O-h7+)rQFV_~z@m(">
                                                                                       <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
                                                                                       <field name="MODE">position</field>
-                                                                                      <field name="COORD">x</field>
+                                                                                      <field name="COORD">z</field>
                                                                                       <value name="TARGETOBJ">
-                                                                                        <shadow type="objectList" id="vMjzJmbZJ^3{bA_*14wH">
+                                                                                        <shadow type="objectList" id="VMyojFC@U$|2~y34nq=`">
                                                                                           <field name="FIELDNAME">invader_root</field>
                                                                                         </shadow>
                                                                                       </value>
                                                                                     </block>
                                                                                   </value>
                                                                                   <next>
-                                                                                    <block type="variables_set" id="`#K)pl(0~%(U4dJvzMT/">
-                                                                                      <field name="VAR" id="pRc-~rmlPY_[N:aT^$}~">inv_y</field>
+                                                                                    <block type="variables_set" id="xg=L^//z#/rmztcT5p9R">
+                                                                                      <field name="VAR" id="qxOFF(-4C[jWEu9O5_Oi">pew_sound</field>
                                                                                       <value name="VALUE">
-                                                                                        <block type="getObjTransform" id="CW8XqG5B8*4%}$D8@1D,">
-                                                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
-                                                                                          <field name="MODE">position</field>
-                                                                                          <field name="COORD">y</field>
-                                                                                          <value name="TARGETOBJ">
-                                                                                            <shadow type="objectList" id="q]/wG|bPAhBe|+ghNymA">
-                                                                                              <field name="FIELDNAME">invader_root</field>
+                                                                                        <block type="loadSoundAdv" id="FsPd3.L{`Sc92|OY73*=">
+                                                                                          <field name="TYPE">SOUND</field>
+                                                                                          <value name="URL">
+                                                                                            <shadow type="text" id="ii^@8E#e[o~UbqZAQOG^">
+                                                                                              <field name="TEXT">./pew.wav</field>
                                                                                             </shadow>
                                                                                           </value>
                                                                                         </block>
                                                                                       </value>
                                                                                       <next>
-                                                                                        <block type="variables_set" id="C%fc^-_`O8j}%~=6}Y@`">
-                                                                                          <field name="VAR" id="NJ]$49HP2428TS$c$D=P">inv_z</field>
+                                                                                        <block type="variables_set" id="ukam]:bn@E]o^fC`)if$">
+                                                                                          <field name="VAR" id="F@*s`g;rO^ZZnx`pJQu*">boom_sound</field>
                                                                                           <value name="VALUE">
-                                                                                            <block type="getObjTransform" id="Upc9O-h7+)rQFV_~z@m(">
-                                                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
-                                                                                              <field name="MODE">position</field>
-                                                                                              <field name="COORD">z</field>
-                                                                                              <value name="TARGETOBJ">
-                                                                                                <shadow type="objectList" id="VMyojFC@U$|2~y34nq=`">
-                                                                                                  <field name="FIELDNAME">invader_root</field>
+                                                                                            <block type="loadSoundAdv" id="T9f%uc%ucSO5MV:jRy5=">
+                                                                                              <field name="TYPE">SOUND</field>
+                                                                                              <value name="URL">
+                                                                                                <shadow type="text" id="zqFYFCjRol@5UjVh$6CP">
+                                                                                                  <field name="TEXT">./boom.wav</field>
                                                                                                 </shadow>
                                                                                               </value>
                                                                                             </block>
                                                                                           </value>
                                                                                           <next>
-                                                                                            <block type="variables_set" id="xg=L^//z#/rmztcT5p9R">
-                                                                                              <field name="VAR" id="qxOFF(-4C[jWEu9O5_Oi">pew_sound</field>
+                                                                                            <block type="variables_set" id="B/iK_4Ku18JTUhT9H;(I">
+                                                                                              <field name="VAR" id="3!4p$!iuFT#wigT1F6S`">explosion_sound</field>
                                                                                               <value name="VALUE">
-                                                                                                <block type="loadSoundAdv" id="FsPd3.L{`Sc92|OY73*=">
+                                                                                                <block type="loadSoundAdv" id="NMp%uOG]k_6!qu,1`6_!">
                                                                                                   <field name="TYPE">SOUND</field>
                                                                                                   <value name="URL">
-                                                                                                    <shadow type="text" id="ii^@8E#e[o~UbqZAQOG^">
-                                                                                                      <field name="TEXT">./pew.wav</field>
+                                                                                                    <shadow type="text" id="?T6gCYI#h(NI;0=.%oGY">
+                                                                                                      <field name="TEXT">./explosion.wav</field>
                                                                                                     </shadow>
                                                                                                   </value>
                                                                                                 </block>
                                                                                               </value>
                                                                                               <next>
-                                                                                                <block type="variables_set" id="ukam]:bn@E]o^fC`)if$">
-                                                                                                  <field name="VAR" id="F@*s`g;rO^ZZnx`pJQu*">boom_sound</field>
+                                                                                                <block type="volume" id="kS/41P9.gx+JP:#y8S-J">
                                                                                                   <value name="VALUE">
-                                                                                                    <block type="loadSoundAdv" id="T9f%uc%ucSO5MV:jRy5=">
-                                                                                                      <field name="TYPE">SOUND</field>
-                                                                                                      <value name="URL">
-                                                                                                        <shadow type="text" id="zqFYFCjRol@5UjVh$6CP">
-                                                                                                          <field name="TEXT">./boom.wav</field>
-                                                                                                        </shadow>
-                                                                                                      </value>
+                                                                                                    <block type="variables_get" id="]K6Xt9]@@(|Cxuaz]|;t">
+                                                                                                      <field name="VAR" id="3!4p$!iuFT#wigT1F6S`">explosion_sound</field>
                                                                                                     </block>
                                                                                                   </value>
+                                                                                                  <value name="VOLUME">
+                                                                                                    <shadow type="math_number" id="TX64F@{*lc{,GP_BS`,v">
+                                                                                                      <field name="NUM">0.35</field>
+                                                                                                    </shadow>
+                                                                                                  </value>
                                                                                                   <next>
-                                                                                                    <block type="variables_set" id="B/iK_4Ku18JTUhT9H;(I">
-                                                                                                      <field name="VAR" id="3!4p$!iuFT#wigT1F6S`">explosion_sound</field>
-                                                                                                      <value name="VALUE">
-                                                                                                        <block type="loadSoundAdv" id="NMp%uOG]k_6!qu,1`6_!">
-                                                                                                          <field name="TYPE">SOUND</field>
-                                                                                                          <value name="URL">
-                                                                                                            <shadow type="text" id="?T6gCYI#h(NI;0=.%oGY">
-                                                                                                              <field name="TEXT">./explosion.wav</field>
-                                                                                                            </shadow>
-                                                                                                          </value>
+                                                                                                    <block type="setObjTransform" id="bU?:TBzjP.LDcwp%rdi|">
+                                                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
+                                                                                                      <field name="MODE">position</field>
+                                                                                                      <field name="OFFSET">FALSE</field>
+                                                                                                      <value name="TARGETOBJ">
+                                                                                                        <shadow type="objectList" id=")E#(gET6#BOsp=7CB(YP">
+                                                                                                          <field name="FIELDNAME">invader_root</field>
+                                                                                                        </shadow>
+                                                                                                      </value>
+                                                                                                      <value name="X">
+                                                                                                        <block type="math_number" id="^IyHN/h6,AlqD//yWP!d">
+                                                                                                          <field name="NUM">0</field>
+                                                                                                        </block>
+                                                                                                      </value>
+                                                                                                      <value name="Y">
+                                                                                                        <block type="math_number" id="hw.+,VqK9L8s,1qz7B#s">
+                                                                                                          <field name="NUM">10.6</field>
+                                                                                                        </block>
+                                                                                                      </value>
+                                                                                                      <value name="Z">
+                                                                                                        <block type="math_number" id="M$^DKNPju7/g_k+rZ4(K">
+                                                                                                          <field name="NUM">2.62</field>
                                                                                                         </block>
                                                                                                       </value>
                                                                                                       <next>
-                                                                                                        <block type="volume" id="kS/41P9.gx+JP:#y8S-J">
-                                                                                                          <value name="VALUE">
-                                                                                                            <block type="variables_get" id="]K6Xt9]@@(|Cxuaz]|;t">
-                                                                                                              <field name="VAR" id="3!4p$!iuFT#wigT1F6S`">explosion_sound</field>
-                                                                                                            </block>
-                                                                                                          </value>
-                                                                                                          <value name="VOLUME">
-                                                                                                            <shadow type="math_number" id="TX64F@{*lc{,GP_BS`,v">
-                                                                                                              <field name="NUM">0.35</field>
+                                                                                                        <block type="setObjTransform" id="dl[$RQxCmtsK?awg)Zw3">
+                                                                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
+                                                                                                          <field name="MODE">position</field>
+                                                                                                          <field name="OFFSET">FALSE</field>
+                                                                                                          <value name="TARGETOBJ">
+                                                                                                            <shadow type="objectList" id="ZZSKjMg-1amfUTLixcnl">
+                                                                                                              <field name="FIELDNAME">turret_root</field>
                                                                                                             </shadow>
                                                                                                           </value>
+                                                                                                          <value name="X">
+                                                                                                            <block type="math_number" id="S0IxN?(|uHZAoSTR/|)1">
+                                                                                                              <field name="NUM">0</field>
+                                                                                                            </block>
+                                                                                                          </value>
+                                                                                                          <value name="Y">
+                                                                                                            <block type="math_number" id="ly%0l+(I{O|p`7$Z]V;U">
+                                                                                                              <field name="NUM">10.6</field>
+                                                                                                            </block>
+                                                                                                          </value>
+                                                                                                          <value name="Z">
+                                                                                                            <block type="math_number" id="d9j_mLP!mw`TZXk4?oE6">
+                                                                                                              <field name="NUM">-3.6</field>
+                                                                                                            </block>
+                                                                                                          </value>
                                                                                                           <next>
-                                                                                                            <block type="setObjTransform" id="bU?:TBzjP.LDcwp%rdi|">
-                                                                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
-                                                                                                              <field name="MODE">position</field>
-                                                                                                              <field name="OFFSET">FALSE</field>
-                                                                                                              <value name="TARGETOBJ">
-                                                                                                                <shadow type="objectList" id=")E#(gET6#BOsp=7CB(YP">
-                                                                                                                  <field name="FIELDNAME">invader_root</field>
-                                                                                                                </shadow>
-                                                                                                              </value>
-                                                                                                              <value name="X">
-                                                                                                                <block type="math_number" id="^IyHN/h6,AlqD//yWP!d">
+                                                                                                            <block type="variables_set" id="NCb.G+={MhQN{l8_;Tf=">
+                                                                                                              <field name="VAR" id="0oiex;kIPZ,h1U3-$_AM">controller_l</field>
+                                                                                                              <value name="VALUE">
+                                                                                                                <block type="math_number" id="f|BMKRbuOn/r*Iw~Jq-2">
                                                                                                                   <field name="NUM">0</field>
                                                                                                                 </block>
                                                                                                               </value>
-                                                                                                              <value name="Y">
-                                                                                                                <block type="math_number" id="hw.+,VqK9L8s,1qz7B#s">
-                                                                                                                  <field name="NUM">10.6</field>
-                                                                                                                </block>
-                                                                                                              </value>
-                                                                                                              <value name="Z">
-                                                                                                                <block type="math_number" id="M$^DKNPju7/g_k+rZ4(K">
-                                                                                                                  <field name="NUM">2.62</field>
-                                                                                                                </block>
-                                                                                                              </value>
                                                                                                               <next>
-                                                                                                                <block type="setObjTransform" id="dl[$RQxCmtsK?awg)Zw3">
-                                                                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
-                                                                                                                  <field name="MODE">position</field>
-                                                                                                                  <field name="OFFSET">FALSE</field>
-                                                                                                                  <value name="TARGETOBJ">
-                                                                                                                    <shadow type="objectList" id="ZZSKjMg-1amfUTLixcnl">
-                                                                                                                      <field name="FIELDNAME">turret_root</field>
-                                                                                                                    </shadow>
-                                                                                                                  </value>
-                                                                                                                  <value name="X">
-                                                                                                                    <block type="math_number" id="S0IxN?(|uHZAoSTR/|)1">
-                                                                                                                      <field name="NUM">0</field>
+                                                                                                                <block type="variables_set" id="I%mz(p/kSkPk4Vt|[Huw">
+                                                                                                                  <field name="VAR" id="c;foaXUOPakV;/%j[k1P">controller_r</field>
+                                                                                                                  <value name="VALUE">
+                                                                                                                    <block type="math_number" id="`hC]~66YmTO{$n(?,hYP">
+                                                                                                                      <field name="NUM">1</field>
                                                                                                                     </block>
                                                                                                                   </value>
-                                                                                                                  <value name="Y">
-                                                                                                                    <block type="math_number" id="ly%0l+(I{O|p`7$Z]V;U">
-                                                                                                                      <field name="NUM">10.6</field>
-                                                                                                                    </block>
-                                                                                                                  </value>
-                                                                                                                  <value name="Z">
-                                                                                                                    <block type="math_number" id="d9j_mLP!mw`TZXk4?oE6">
-                                                                                                                      <field name="NUM">-3.6</field>
-                                                                                                                    </block>
-                                                                                                                  </value>
-                                                                                                                  <next>
-                                                                                                                    <block type="variables_set" id="NCb.G+={MhQN{l8_;Tf=">
-                                                                                                                      <field name="VAR" id="0oiex;kIPZ,h1U3-$_AM">controller_l</field>
-                                                                                                                      <value name="VALUE">
-                                                                                                                        <block type="math_number" id="f|BMKRbuOn/r*Iw~Jq-2">
-                                                                                                                          <field name="NUM">0</field>
-                                                                                                                        </block>
-                                                                                                                      </value>
-                                                                                                                      <next>
-                                                                                                                        <block type="variables_set" id="I%mz(p/kSkPk4Vt|[Huw">
-                                                                                                                          <field name="VAR" id="c;foaXUOPakV;/%j[k1P">controller_r</field>
-                                                                                                                          <value name="VALUE">
-                                                                                                                            <block type="math_number" id="`hC]~66YmTO{$n(?,hYP">
-                                                                                                                              <field name="NUM">1</field>
-                                                                                                                            </block>
-                                                                                                                          </value>
-                                                                                                                        </block>
-                                                                                                                      </next>
-                                                                                                                    </block>
-                                                                                                                  </next>
                                                                                                                 </block>
                                                                                                               </next>
                                                                                                             </block>
