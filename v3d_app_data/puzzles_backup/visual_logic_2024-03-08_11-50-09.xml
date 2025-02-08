@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1118.075344963635" scrolly="1095.997618502829" scale="0.6548623765145809">
+  <tab name="main" type="MainTab" active="true" scrollx="1118.075344963635" scrolly="1095.997618502829" scale="0.6548623765145809">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="0S8xSmIPXR,?MpVR;PD^">game_over</variable>
       <variable id="Ot_qa}_UM:k1kQ*AwNDx">turret_fired</variable>
@@ -2541,5 +2541,5 @@
       </statement>
     </block>
   </tab>
-  <editorsettings viewport-x="1348.4" viewport-y="43" viewport-w="552.594" viewport-h="373" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="1348.4" viewport-y="43" viewport-w="552.594" viewport-h="373" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
